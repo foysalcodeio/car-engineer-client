@@ -50,7 +50,7 @@ const SignUp = () => {
                             <label className="label">
                                 <span className="label-text text-black">Email</span>
                             </label>
-                            <input type="email" placeholder="email" name='email' className="input bg-white text-black input-bordered" required />
+                            <input type="email" placeholder="email" name='email' className="input bg-white text-black input-bordered" required autocomplete="email"/>
                         </div>
 
                         <div className="form-control">
